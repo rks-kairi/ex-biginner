@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <form action="finished.html" th:action="@{/exam02/addition}" method="POST">
+        <input type="text" name="num1">＋<input type="text" name="num2">＝<br>
+        <button>足し算をする</button>
+    </form>
+</body>
+</html>
