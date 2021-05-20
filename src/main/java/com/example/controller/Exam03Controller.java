@@ -23,7 +23,7 @@ public class Exam03Controller {
 		application.setAttribute("item2", item2);
 		application.setAttribute("item3", item3);
 		application.setAttribute("total", item1 + item2 + item3);
-		application.setAttribute("tax", (item1 + item2 + item3) * 1.1);
+		application.setAttribute("taxtotal", (item1 + item2 + item3) * 1.1);
 		return "exam03-result";
 	}
 }
